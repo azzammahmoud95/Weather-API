@@ -5,6 +5,7 @@ import clear from '../img/weather-icons/clear.svg';
 import cloudy from '../img/weather-icons/cloudy.svg';
 import drizzle from '../img/weather-icons/drizzle.svg';
 // import FakeWeather from "./data/FakeWeather.json";
+import Header from "./Header"
 
 class Content extends React.Component {
     constructor(props){
