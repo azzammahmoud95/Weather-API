@@ -12,6 +12,7 @@ import Weather__daily from "./components/Weather__daily";
 import Content from "./components/Content";
 import Header from "./components/Header";
 // import Search from "./components/Search";
+import FakeWeather from "./data/FakeWeather.json";
 
 class App extends Component {
   constructor(props) {
@@ -28,8 +29,9 @@ class App extends Component {
   render() {
     return (
       <div className="app">
+        
       <Header />
-      <Content />
+      <Content ObjectWeather={FakeWeather}/>
         
       </div>
     );
